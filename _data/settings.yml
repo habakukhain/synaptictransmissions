@@ -1,7 +1,7 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: true
-  disqus_shortname: 'hapaxlegomenon'
+  disqus_shortname: 'synaptictransmissions'
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
 google-ID: ''
