@@ -246,6 +246,10 @@ hr {
   padding-right: 10px;
 }
 
+.menu-content a.active {
+  color: #000;
+}
+
 .social-icons {
   float: right;
 }
