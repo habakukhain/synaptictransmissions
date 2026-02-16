@@ -1,0 +1,471 @@
+{
+  "timestamp": "2026-02-13_213308",
+  "summary": {
+    "triage": {
+      "calls": 24,
+      "input_tokens": 61769,
+      "output_tokens": 18663,
+      "total_tokens": 80432,
+      "papers": 470,
+      "input_chars": 240310
+    },
+    "analysis": {
+      "calls": 20,
+      "input_tokens": 21518,
+      "output_tokens": 5887,
+      "total_tokens": 27405,
+      "papers": 20,
+      "input_chars": 87013,
+      "full_text_papers": 0,
+      "abstract_only_papers": 20
+    },
+    "total": {
+      "calls": 44,
+      "input_tokens": 83287,
+      "output_tokens": 24550,
+      "total_tokens": 107837
+    }
+  },
+  "entries": [
+    {
+      "phase": "triage",
+      "input_tokens": 3013,
+      "output_tokens": 815,
+      "input_chars": 11329,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:25:57.546144",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2746,
+      "output_tokens": 775,
+      "input_chars": 10708,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:26:08.610041",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2448,
+      "output_tokens": 809,
+      "input_chars": 9063,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:26:20.388778",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2420,
+      "output_tokens": 811,
+      "input_chars": 8538,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:26:31.343052",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2218,
+      "output_tokens": 784,
+      "input_chars": 8104,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:26:42.811442",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2177,
+      "output_tokens": 798,
+      "input_chars": 8200,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:26:53.769518",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2648,
+      "output_tokens": 790,
+      "input_chars": 10388,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:27:05.230714",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2782,
+      "output_tokens": 829,
+      "input_chars": 10876,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:27:16.502239",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2782,
+      "output_tokens": 787,
+      "input_chars": 11122,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:27:27.338402",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2125,
+      "output_tokens": 797,
+      "input_chars": 7871,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:27:38.063723",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2762,
+      "output_tokens": 801,
+      "input_chars": 10544,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:27:49.686383",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2440,
+      "output_tokens": 795,
+      "input_chars": 9059,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:28:02.889585",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2622,
+      "output_tokens": 760,
+      "input_chars": 10022,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:28:14.263793",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2408,
+      "output_tokens": 744,
+      "input_chars": 9216,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:28:25.524029",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2751,
+      "output_tokens": 796,
+      "input_chars": 9976,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:28:36.564447",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2340,
+      "output_tokens": 823,
+      "input_chars": 8784,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:03.926075",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2584,
+      "output_tokens": 772,
+      "input_chars": 10890,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:13.653459",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2644,
+      "output_tokens": 793,
+      "input_chars": 11249,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:23.996162",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2786,
+      "output_tokens": 800,
+      "input_chars": 11473,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:35.030488",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2866,
+      "output_tokens": 796,
+      "input_chars": 11703,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:47.135735",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2801,
+      "output_tokens": 781,
+      "input_chars": 11429,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:29:59.423992",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2877,
+      "output_tokens": 805,
+      "input_chars": 11466,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:30:10.977793",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 2853,
+      "output_tokens": 800,
+      "input_chars": 11536,
+      "paper_count": 20,
+      "timestamp": "2026-02-13T21:30:21.723967",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "triage",
+      "input_tokens": 1676,
+      "output_tokens": 402,
+      "input_chars": 6764,
+      "paper_count": 10,
+      "timestamp": "2026-02-13T21:30:27.994589",
+      "pmid": null,
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 878,
+      "output_tokens": 256,
+      "input_chars": 3655,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:30:45.185756",
+      "pmid": "41678629",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1166,
+      "output_tokens": 275,
+      "input_chars": 4629,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:30:52.064492",
+      "pmid": "41512207",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1051,
+      "output_tokens": 300,
+      "input_chars": 4118,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:30:59.292963",
+      "pmid": "41663414",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 997,
+      "output_tokens": 349,
+      "input_chars": 4098,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:07.535314",
+      "pmid": "41529231",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1260,
+      "output_tokens": 313,
+      "input_chars": 5019,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:15.107943",
+      "pmid": "40971894",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1328,
+      "output_tokens": 315,
+      "input_chars": 5392,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:28.208742",
+      "pmid": "40497796",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1267,
+      "output_tokens": 287,
+      "input_chars": 5057,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:35.075218",
+      "pmid": "41661329",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1187,
+      "output_tokens": 275,
+      "input_chars": 4495,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:43.066006",
+      "pmid": "41673155",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 982,
+      "output_tokens": 300,
+      "input_chars": 3995,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:50.430982",
+      "pmid": "41673152",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 623,
+      "output_tokens": 187,
+      "input_chars": 2558,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:31:56.280101",
+      "pmid": "41686463",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1031,
+      "output_tokens": 330,
+      "input_chars": 4106,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:04.578132",
+      "pmid": "41670738",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1068,
+      "output_tokens": 287,
+      "input_chars": 4607,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:11.204962",
+      "pmid": "41670166",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 845,
+      "output_tokens": 297,
+      "input_chars": 3529,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:18.488941",
+      "pmid": "41669830",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1095,
+      "output_tokens": 283,
+      "input_chars": 4449,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:24.846865",
+      "pmid": "41679963",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1548,
+      "output_tokens": 317,
+      "input_chars": 5767,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:32.421175",
+      "pmid": "41678809",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 808,
+      "output_tokens": 269,
+      "input_chars": 3507,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:38.802844",
+      "pmid": "41674463",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 901,
+      "output_tokens": 294,
+      "input_chars": 3820,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:46.162065",
+      "pmid": "41671483",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 936,
+      "output_tokens": 317,
+      "input_chars": 3847,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:32:53.522683",
+      "pmid": "41505689",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1303,
+      "output_tokens": 331,
+      "input_chars": 5429,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:33:00.633828",
+      "pmid": "40397689",
+      "full_text_used": false
+    },
+    {
+      "phase": "analysis",
+      "input_tokens": 1244,
+      "output_tokens": 305,
+      "input_chars": 4936,
+      "paper_count": 1,
+      "timestamp": "2026-02-13T21:33:08.601344",
+      "pmid": "41667276",
+      "full_text_used": false
+    }
+  ]
+}

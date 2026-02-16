@@ -4,3 +4,7 @@ Gemfile.lock
 .sass-cache
 .jekyll-metadata
 .DS_Store
+
+# Neuro newsletter - local config with API key
+neuro_newsletter/config.yaml
+neuro_newsletter/processed_papers.json
