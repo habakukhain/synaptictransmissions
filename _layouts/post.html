@@ -19,15 +19,15 @@ layout: default
   {% assign display_title = page.title %}
 {% endif %}
 
-<h1>
-  {{ display_title }}
-</h1>
-
 {% if cat_config.description %}
 <p class="post-type-description">
   <em>{{ cat_config.description }}</em>
 </p>
 {% endif %}
+
+<h1>
+  {{ display_title }}
+</h1>
 
 {% if category == "transmission" and page.paper_author %}
 {% if page.summary %}
