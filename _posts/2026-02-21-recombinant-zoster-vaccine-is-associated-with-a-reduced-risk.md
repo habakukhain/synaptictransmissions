@@ -3,7 +3,7 @@ layout: "post"
 title: "Recombinant zoster vaccine and dementia risk."
 author: "Habakuk Hain"
 categories: "transmission"
-slug: "3"
+slug: "2"
 tags: ["recombinant zoster vaccine", "dementia prevention", "neuroinflammation"]
 image:
 rating: 8
