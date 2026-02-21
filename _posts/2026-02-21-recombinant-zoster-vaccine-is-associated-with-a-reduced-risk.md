@@ -6,7 +6,7 @@ categories: transmission
 tags: ["recombinant zoster vaccine", "dementia prevention", "neuroinflammation"]
 image:
 rating: 8
-paper_title: "Recombinant zoster vaccine is associated with a reduced risk of dementia."
+paper_title: "Recombinant zoster vaccine and dementia risk."
 paper_author: "Rayens"
 paper_journal: "Nat Comm"
 paper_year: "2026"
@@ -16,7 +16,7 @@ summary: "Large retrospective cohort study of 329,000 adults ≥65 years found t
 author_context: "Kaiser Permanente Southern California Department of Research & Evaluation with GSK collaboration - robust epidemiological research infrastructure"
 ---
 
-**Problem**: Whether recombinant zoster vaccine specifically reduces dementia risk, building on prior observations with live zoster vaccine.
+**Problem**: There is converging evidence that live zoster vaccines reduce dementia risk, but comparable evidence is lacking for the recombinant zoster vaccine (RZV).
 
 **Result**: RZV vaccination showed a statistically significant 51% reduction in dementia risk (aHR 0.49), with 27% reduction persisting after controlling for healthy vaccinee bias.
 
