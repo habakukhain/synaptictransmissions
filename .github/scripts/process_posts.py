@@ -87,9 +87,17 @@ def format_yaml_field(field: str, value) -> str:
     elif isinstance(value, bool):
         return f'{field}: {str(value).lower()}'
     elif isinstance(value, list):
-        # Format as inline list with proper quoting
-        items = ', '.join(f'"{item}"' if isinstance(item, str) else str(item) for item in value)
-        return f'{field}: [{items}]'
+        # Check if it's a simple list of strings
+        if all(isinstance(item, str) for item in value):
+            items = ', '.join(f'"{item}"' for item in value)
+            return f'{field}: [{items}]'
+        # For complex lists (containing dicts), use yaml.dump
+        dumped = yaml.dump({field: value}, default_flow_style=False, allow_unicode=True)
+        return dumped.rstrip()
+    elif isinstance(value, dict):
+        # Use yaml.dump for dicts
+        dumped = yaml.dump({field: value}, default_flow_style=False, allow_unicode=True)
+        return dumped.rstrip()
     elif isinstance(value, str):
         # Quote strings that need it
         if ':' in value or '"' in value or '\n' in value or value.startswith('{') or value.startswith('['):
@@ -232,45 +240,58 @@ def process_posts(posts_dir: str = '_posts') -> list[str]:
                 post['front_matter']['slug'] = str(category_max_slug[category])
                 post['new_slug'] = category_max_slug[category]
 
-    # Second pass: write updated posts
+    # Second pass: write updated posts using text insertion (preserves complex YAML)
     processed = []
     for post in posts_data:
         filepath = post['filepath']
-        front_matter = post['front_matter']
-        body = post['body']
         filename = filepath.name
 
-        needs_update = False
+        needs_file_rename = False
+        needs_content_update = False
         new_filepath = filepath
+
+        # Read original content
+        content = filepath.read_text(encoding='utf-8')
 
         # Handle posts without date prefix
         if not has_date_prefix(filename):
             print(f"Processing: {filepath}")
 
-            # Add date to front matter if not present or empty
-            if not front_matter.get('date'):
-                front_matter['date'] = datetime_str
+            # Add date to front matter if not present
+            if not post['front_matter'].get('date'):
+                # Insert date after the opening ---
+                content = re.sub(
+                    r'^(---\s*\n)',
+                    f'\\1date: "{datetime_str}"\n',
+                    content
+                )
                 print(f"  Added date: {datetime_str}")
+                needs_content_update = True
 
             # Create new filename with date prefix
             new_filename = f"{date_prefix}-{filename}"
             new_filepath = filepath.parent / new_filename
-            needs_update = True
+            needs_file_rename = True
 
-        # Check if we assigned a new slug
+        # Insert slug if we assigned a new one
         if 'new_slug' in post:
-            print(f"  Added slug: {post['new_slug']} (category: {post['category']}) to {filepath.name}")
-            needs_update = True
+            slug_val = post['new_slug']
+            # Insert slug after categories line
+            content = re.sub(
+                r'^(categories:\s*[^\n]*\n)',
+                f'\\1slug: "{slug_val}"\n',
+                content,
+                flags=re.MULTILINE
+            )
+            print(f"  Added slug: {slug_val} (category: {post['category']}) to {filepath.name}")
+            needs_content_update = True
 
-        if needs_update:
-            # Serialize back
-            new_content = serialize_front_matter(front_matter, body)
-
-            # Write new file
-            new_filepath.write_text(new_content, encoding='utf-8')
+        if needs_content_update or needs_file_rename:
+            # Write file
+            new_filepath.write_text(content, encoding='utf-8')
 
             # Remove old file if renamed
-            if new_filepath != filepath:
+            if needs_file_rename and new_filepath != filepath:
                 print(f"  Renamed to: {new_filepath}")
                 filepath.unlink()
 

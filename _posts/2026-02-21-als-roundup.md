@@ -1,9 +1,52 @@
 ---
-layout: "collated"
-title: "ALS Roundup"
-author: "Habakuk Hain"
-categories: "convergence"
+layout: collated
+title: ALS Research Roundup
+author: Habakuk Hain
+categories: convergence
 slug: "1"
-papers: [{'slug': 'marcadet-2026', 'title': 'Targeting lipid droplets in FUS-linked amyotrophic lateral sclerosis mitigates neuronal and astrocytic lipotoxicity.', 'paper_author': 'Marcadet', 'paper_year': '2026', 'paper_journal': 'Brain', 'paper_doi': 'https://doi.org/10.1093/brain/awaf328', 'paper_et_al': True, 'summary': 'This study reveals that FUS-linked ALS involves pathological accumulation of lipid droplets and disrupted fatty acid metabolism in neurons and astrocytes, leading to lipotoxicity. The authors demonstrate that arimoclomol, a drug previously tested in ALS trials, works by enhancing mitochondrial lipid metabolism and reducing this lipotoxicity through CPT1-dependent mechanisms.', 'tags': ['FUS-ALS', 'lipid droplets', 'mitochondrial beta-oxidation'], 'rating': 8, 'author_context': 'Research team from CERVO Brain Research Centre at Laval University with metabolomics expertise, combining preclinical models with human post-mortem tissue validation', 'content': '**Problem**: The downstream consequences of metabolic reprogramming toward fatty acid utilization in ALS pathogenesis were poorly understood.\\\\n\\\\n**Result**: FUS-ALS involves pathological lipid droplet accumulation and lipotoxicity in neurons and astrocytes, which can be mitigated by enhancing CPT1-dependent mitochondrial β-oxidation.\\\\n\\\\n**Open Questions**: Whether this lipid metabolic dysfunction occurs across other ALS subtypes and whether CPT1-targeting therapies could be developed for clinical translation.'}, {'slug': 'thorarinsson-2026', 'title': 'Treating SOD1-ALS with tofersen results in nonprogressive chronic ALS-a case series from Iceland.', 'paper_author': 'Thorarinsson', 'paper_year': '2026', 'paper_journal': 'J Neurol', 'paper_doi': 'https://doi.org/10.1007/s00415-025-13579-y', 'paper_et_al': True, 'questions': ['als-genetic-testing'], 'summary': "Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease.", 'tags': ['SOD1-ALS', 'tofersen', 'antisense oligonucleotide'], 'rating': 8, 'author_context': 'Neurologists from Landspitali University Hospital Iceland with collaboration from Swedish ALS expertise', 'content': '**Problem**: Whether intrathecal tofersen can alter the progressive course of SOD1-ALS and what constitutes meaningful clinical response.\\\\n\\\\n**Result**: Tofersen treatment resulted in disease stabilization or improvement in all four patients, creating a novel chronic nonprogressive ALS phenotype with biomarker normalization.\\\\n\\\\n**Open Questions**: The durability of response, optimal timing of treatment initiation, and whether similar outcomes occur with other SOD1 mutations remain unclear.'}]
+papers:
+- slug: marcadet-2026
+  title: Targeting lipid droplets in FUS-linked amyotrophic lateral sclerosis mitigates neuronal and astrocytic lipotoxicity.
+  paper_author: Marcadet
+  paper_year: '2026'
+  paper_journal: Brain
+  paper_doi: https://doi.org/10.1093/brain/awaf328
+  paper_et_al: true
+  summary: |-
+    This study reveals that FUS-linked ALS involves pathological accumulation of lipid droplets and disrupted fatty acid metabolism in neurons and astrocytes, leading to lipotoxicity. The authors demonstrate that arimoclomol, a drug previously tested in ALS trials, works by enhancing mitochondrial lipid metabolism and reducing this lipotoxicity through CPT1-dependent mechanisms.
+  tags:
+  - FUS-ALS
+  - lipid droplets
+  - mitochondrial beta-oxidation
+  rating: 8
+  author_context: Research team from CERVO Brain Research Centre at Laval University with metabolomics expertise, combining
+    preclinical models with human post-mortem tissue validation
+  content: |-
+    **Problem**: The downstream consequences of metabolic reprogramming toward fatty acid utilization in ALS pathogenesis were poorly understood.
+
+    **Result**: FUS-ALS involves pathological lipid droplet accumulation and lipotoxicity in neurons and astrocytes, which can be mitigated by enhancing CPT1-dependent mitochondrial β-oxidation.
+
+    **Open Questions**: Whether this lipid metabolic dysfunction occurs across other ALS subtypes and whether CPT1-targeting therapies could be developed for clinical translation.
+- slug: thorarinsson-2026
+  title: Treating SOD1-ALS with tofersen results in nonprogressive chronic ALS-a case series from Iceland.
+  paper_author: Thorarinsson
+  paper_year: '2026'
+  paper_journal: J Neurol
+  paper_doi: https://doi.org/10.1007/s00415-025-13579-y
+  paper_et_al: true
+  questions: [als-treatment-timing]
+  summary: |-
+    Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease.
+  tags:
+  - SOD1-ALS
+  - tofersen
+  - antisense oligonucleotide
+  rating: 8
+  author_context: Neurologists from Landspitali University Hospital Iceland with collaboration from Swedish ALS expertise
+  content: |-
+    **Problem**: Whether intrathecal tofersen can alter the progressive course of SOD1-ALS and what constitutes meaningful clinical response.
+
+    **Result**: Tofersen treatment resulted in disease stabilization or improvement in all four patients, creating a novel chronic nonprogressive ALS phenotype with biomarker normalization.
+
+    **Open Questions**: The durability of response, optimal timing of treatment initiation, and whether similar outcomes occur with other SOD1 mutations remain unclear.
 ---
-There is a lot of movement in the ALS space. Some recent advances include insight into the pathomechanism of one genetic variant and reports of the first successful treatment with no evidence of disease progression of another genetic variant.
