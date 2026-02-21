@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Deep brain stimulation for epilepsy: optimal targeting and clinical outcomes."
+title: "Deep brain stimulation for epilepsy."
 author: "Habakuk Hain"
 categories: transmission
 tags: ["deep brain stimulation", "drug-resistant epilepsy", "thalamic targeting"]
