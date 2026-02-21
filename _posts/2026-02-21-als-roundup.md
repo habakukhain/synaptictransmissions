@@ -1,6 +1,6 @@
 ---
 layout: collated
-title: ALS Research Roundup
+title: ALS Roundup
 author: Habakuk Hain
 categories: convergence
 slug: "1"
@@ -34,7 +34,7 @@ papers:
   paper_journal: J Neurol
   paper_doi: https://doi.org/10.1007/s00415-025-13579-y
   paper_et_al: true
-  questions: [als-treatment-timing]
+  questions: [als-genetic-testing]
   summary: |-
     Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease.
   tags:
@@ -50,3 +50,5 @@ papers:
 
     **Open Questions**: The durability of response, optimal timing of treatment initiation, and whether similar outcomes occur with other SOD1 mutations remain unclear.
 ---
+
+There is a lot of movement in the ALS space. Some recent advances include insight into the pathomechanism of one genetic variant and reports of the first successful treatment with no evidence of disease progression of another genetic variant.
