@@ -11,7 +11,8 @@ layout: default
 {% for post in site.posts %}
   {% comment %} Check regular posts with questions field {% endcomment %}
   {% if post.questions contains page.slug %}
-    {% assign item = post.title | append: "|||" | append: post.url | append: "|||" | append: post.date | append: "|||" %}
+    {% assign paper_title = post.paper_title | default: post.title %}
+    {% assign item = paper_title | append: "|||" | append: post.url %}
     {% assign relevant_items = relevant_items | push: item %}
   {% endif %}
 
@@ -19,7 +20,7 @@ layout: default
   {% if post.papers %}
     {% for paper in post.papers %}
       {% if paper.questions contains page.slug %}
-        {% assign item = paper.title | append: "|||" | append: post.url | append: "#" | append: paper.slug | append: "|||" | append: post.date | append: "|||" | append: paper.paper_author | append: " " | append: paper.paper_year %}
+        {% assign item = paper.title | append: "|||" | append: post.url | append: "#" | append: paper.slug %}
         {% assign relevant_items = relevant_items | push: item %}
       {% endif %}
     {% endfor %}
@@ -33,12 +34,8 @@ layout: default
     {% assign parts = item | split: "|||" %}
     {% assign item_title = parts[0] %}
     {% assign item_url = parts[1] %}
-    {% assign item_date = parts[2] %}
-    {% assign item_citation = parts[3] %}
   <li>
     <a href="{{ item_url | relative_url }}">{{ item_title }}</a>
-    {% if item_citation != "" %}<span class="paper-ref">({{ item_citation }})</span>{% endif %}
-    <span class="post-date">— {{ item_date | date: "%B %-d, %Y" }}</span>
   </li>
   {% endfor %}
 </ul>

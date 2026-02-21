@@ -48,7 +48,7 @@ layout: default
 
 {% if page.questions %}
 <div class="open-questions">
-  <h3>Related Open Questions</h3>
+  <h3>Related Questions</h3>
   <ul>
     {% for question_slug in page.questions %}
       {% assign question = site.questions | where: "slug", question_slug | first %}

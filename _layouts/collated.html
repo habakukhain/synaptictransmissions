@@ -6,7 +6,15 @@ layout: default
 {% assign cat_config = site.post_categories[category] %}
 
 {% if cat_config %}
-  {% assign display_title = page.title %}
+  {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains category" | reverse %}
+  {% assign post_number = 0 %}
+  {% for post in cat_posts %}
+    {% assign post_number = post_number | plus: 1 %}
+    {% if post.url == page.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number | append: ": " | append: page.title %}
 {% else %}
   {% assign display_title = page.title %}
 {% endif %}
