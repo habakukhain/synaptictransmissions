@@ -29,6 +29,17 @@ layout: default
 </p>
 {% endif %}
 
+{% if category == "transmission" and page.paper_author %}
+<p class="paper-citation">
+  {{ page.paper_author }}{% if page.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ page.paper_journal }}</em> {{ page.paper_year }}: {{ page.paper_title }}
+</p>
+{% if page.summary %}
+<blockquote class="paper-summary">
+  {{ page.summary }}
+</blockquote>
+{% endif %}
+{% endif %}
+
 {% if page.image %}
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
 {% endif %}

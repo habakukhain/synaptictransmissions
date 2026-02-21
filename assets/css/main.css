@@ -163,6 +163,20 @@ hr {
   margin-bottom: 1.5rem;
 }
 
+.paper-citation {
+  color: #515151;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.paper-summary {
+  margin: 1rem 0 1.5rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 0.25em solid #ccc;
+  color: #515151;
+  font-style: italic;
+}
+
 .posts {
   margin-bottom: 5rem;
   padding: 0px;

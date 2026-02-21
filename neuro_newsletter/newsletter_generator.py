@@ -296,7 +296,6 @@ class NewsletterGenerator:
     def _format_draft(self, analysis: PaperAnalysis, author: str = "Habakuk Hain") -> str:
         """Format a single paper as a Jekyll draft blog post."""
         link = self._format_paper_link(analysis)
-        citation = self._format_citation(analysis)
 
         # Convert 1-5 importance to 0-10 scale
         rating = analysis.importance_score * 2
@@ -305,26 +304,39 @@ class NewsletterGenerator:
         tags = analysis.keywords[:3] if analysis.keywords else []
         tags_formatted = ", ".join(f'"{tag}"' for tag in tags)
 
+        # Extract citation components
+        first_author = self._get_first_author_lastname(analysis)
+        journal_abbrev = self._abbreviate_journal(analysis.paper.journal)
+        year = analysis.paper.publication_date[:4] if analysis.paper.publication_date else "2026"
+        has_multiple_authors = len(analysis.paper.authors) > 1 if analysis.paper.authors else False
+
+        # Escape quotes in title and summary for YAML
+        escaped_title = analysis.paper.title.replace('"', '\\"')
+        escaped_summary = analysis.summary.replace('"', '\\"')
+
         # Build front matter
         front_matter = [
             "---",
             "layout: post",
-            f'title: "{analysis.paper.title}"',
+            f'title: "{escaped_title}"',
             f'author: "{author}"',
-            "categories: journal",
+            "categories: transmission",
             f"tags: [{tags_formatted}]",
             "image:",
             f"rating: {rating}",
+            f'paper_title: "{escaped_title}"',
+            f'paper_author: "{first_author}"',
+            f'paper_journal: "{journal_abbrev}"',
+            f'paper_year: "{year}"',
+            f'paper_doi: "{link}"',
+            f"paper_et_al: {str(has_multiple_authors).lower()}",
+            f'summary: "{escaped_summary}"',
             "---",
             ""
         ]
 
-        # Build post body
+        # Build post body (content after the citation/summary which are now handled by template)
         body = [
-            f"*{citation}*",
-            "",
-            f"> {analysis.summary}",
-            "",
             f"[Read the full paper]({link})",
             "",
             f"<!-- {analysis.author_context} -->",
