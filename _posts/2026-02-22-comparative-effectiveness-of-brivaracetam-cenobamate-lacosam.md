@@ -21,4 +21,4 @@ author_context: "Multi-institutional Italian collaboration led by epilepsy speci
 
 **Result**: Cenobamate demonstrated superior efficacy across all measures (50% response rate, seizure freedom, notably also retention) compared to three other newer ASMs, despite causing more adverse effects.
 
-**Open Questions**: Prospective head-to-head trials and longer-term safety data are needed to confirm these real-world effectiveness findings and better characterize cenobamate's risk-benefit profile.
+**Open Questions**: Prospective head-to-head trials and longer-term safety data are still somewhat necessary to confirm these real-world effectiveness findings and better characterize cenobamate's risk-benefit profile. For now, all we have to counsel patients is that there are some hints that cenobamate could be more effective in stopping seizures than other modern drugs, and the associated risks may be worth it. 
