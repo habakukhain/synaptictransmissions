@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1212/WNL.0000000000214514"
 paper_et_al: true
 summary: "A 27-year-old man initially diagnosed with juvenile-onset Parkinson's disease and treated with levodopa was ultimately found to have SPG15 (hereditary spastic paraplegia) after progressive loss of dopaminergic responsiveness. This case demonstrates that some forms of HSP can present with parkinsonian features and initial levodopa responsiveness, highlighting the importance of comprehensive genetic testing when atypical features emerge."
+author_context: "University of Arkansas for Medical Sciences neurology department, movement disorders subspecialty focus"
 ---
-
-[Read the full paper](https://doi.org/10.1212/WNL.0000000000214514)
-
-<!-- University of Arkansas for Medical Sciences neurology department, movement disorders subspecialty focus -->
 
 **Problem**: The diagnostic challenge of distinguishing juvenile-onset parkinsonism from hereditary spastic paraplegia when presentations overlap and initial treatment responses are misleading.
 

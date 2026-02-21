@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1126/science.adr4661"
 paper_et_al: true
 summary: "This study reveals that myelin damage begins with swelling that can be reversible rather than immediate destruction, challenging the traditional view of demyelination as purely degenerative. Using live imaging in animal models and human MS tissue, researchers found that increased neuronal activity worsens myelin swelling while reduced activity is protective."
+author_context: "Edinburgh-based neuroscience consortium with MS Society support, led by investigators from the Institute for Neuroscience and Cardiovascular Research with expertise in myelin biology and regenerative medicine"
 ---
-
-[Read the full paper](https://doi.org/10.1126/science.adr4661)
-
-<!-- Edinburgh-based neuroscience consortium with MS Society support, led by investigators from the Institute for Neuroscience and Cardiovascular Research with expertise in myelin biology and regenerative medicine -->
 
 **Problem**: The paper addressed how myelin damage actually occurs at the cellular level, as the mechanistic details of demyelination onset remain incompletely understood.
 

@@ -314,6 +314,9 @@ class NewsletterGenerator:
         escaped_title = analysis.paper.title.replace('"', '\\"')
         escaped_summary = analysis.summary.replace('"', '\\"')
 
+        # Escape author context for YAML
+        escaped_author_context = analysis.author_context.replace('"', '\\"') if analysis.author_context else ""
+
         # Build front matter
         front_matter = [
             "---",
@@ -331,16 +334,13 @@ class NewsletterGenerator:
             f'paper_doi: "{link}"',
             f"paper_et_al: {str(has_multiple_authors).lower()}",
             f'summary: "{escaped_summary}"',
+            f'author_context: "{escaped_author_context}"',
             "---",
             ""
         ]
 
         # Build post body (content after the citation/summary which are now handled by template)
         body = [
-            f"[Read the full paper]({link})",
-            "",
-            f"<!-- {analysis.author_context} -->",
-            "",
             f"**Problem**: {analysis.problem_addressed}",
             "",
             f"**Result**: {analysis.actual_result}",

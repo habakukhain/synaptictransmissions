@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1038/s41467-026-69595-7"
 paper_et_al: true
 summary: "This study reveals that two CCM2 proteins must cluster on a single KRIT1 protein to properly suppress KLF4 transcription factor expression in endothelial cells. When this clustering fails due to mutations in either KRIT1 or CCM2, KLF4 overexpression leads to the endothelial dysfunction characteristic of cerebral cavernous malformations."
+author_context: "Yale University pharmacology researchers with expertise in structural biology and protein interactions"
 ---
-
-[Read the full paper](https://doi.org/10.1038/s41467-026-69595-7)
-
-<!-- Yale University pharmacology researchers with expertise in structural biology and protein interactions -->
 
 **Problem**: The precise molecular mechanism by which KRIT1 and CCM2 protein interactions regulate endothelial cell function in cerebral cavernous malformations was unclear.
 

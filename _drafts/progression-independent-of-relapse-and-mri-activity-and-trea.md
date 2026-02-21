@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1093/brain/awag060"
 paper_et_al: true
 summary: "Large French registry study of 10,499 MS patients found that high-efficacy therapies (HET) do not meaningfully prevent progression independent of relapse and MRI activity (PIRMA) compared to moderate-efficacy therapies, despite better control of inflammatory activity. This challenges the assumption that more potent anti-inflammatory treatments will prevent all forms of disability progression in MS."
+author_context: "French MS Registry consortium led by researchers from major French MS centers including Lyon and Rennes, representing real-world clinical practice across France"
 ---
-
-[Read the full paper](https://doi.org/10.1093/brain/awag060)
-
-<!-- French MS Registry consortium led by researchers from major French MS centers including Lyon and Rennes, representing real-world clinical practice across France -->
 
 **Problem**: Whether high-efficacy MS therapies can prevent progression independent of relapse and MRI activity (PIRMA), which represents a major unmet need in MS care.
 

@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1038/s41467-026-69337-9"
 paper_et_al: true
 summary: "This large-scale genomic study of 2,811 movement disorder patients identified a novel X-linked spastic ataxia caused by loss-of-function variants in CD99L2, a transmembrane protein that activates the calcium-dependent protease CAPN1. The discovery reveals a new disease mechanism involving impaired proteolysis and synaptic dysfunction, while also demonstrating that genome sequencing beyond exomes increases diagnostic yield by 7.5% in movement disorders."
+author_context: "Multi-institutional European collaboration led by University of Tübingen geneticists with expertise in rare movement disorders and genomic medicine"
 ---
-
-[Read the full paper](https://doi.org/10.1038/s41467-026-69337-9)
-
-<!-- Multi-institutional European collaboration led by University of Tübingen geneticists with expertise in rare movement disorders and genomic medicine -->
 
 **Problem**: The majority of patients with rare movement disorders lack molecular diagnoses despite available genetic testing approaches.
 

@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1212/WNL.0000000000214648"
 paper_et_al: true
 summary: "This comprehensive review examines two newly available commercial biomarker tests for detecting pathologic α-synuclein: CSF seed amplification assays and skin phospho-α-synuclein immunofluorescence. The authors discuss clinical applications, research opportunities, and critical knowledge gaps while calling for formal clinical use guidelines for these potentially practice-changing diagnostic tools."
+author_context: "Multi-institutional expert panel including leading synucleinopathy researchers from UCSD, Mayo Clinic Arizona, and University of Rochester"
 ---
-
-[Read the full paper](https://doi.org/10.1212/WNL.0000000000214648)
-
-<!-- Multi-institutional expert panel including leading synucleinopathy researchers from UCSD, Mayo Clinic Arizona, and University of Rochester -->
 
 **Problem**: The lack of comprehensive guidance on clinical applications and limitations of newly commercialized α-synuclein biomarker tests for synucleinopathies.
 

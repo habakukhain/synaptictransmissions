@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1001/jamaneurol.2025.5625"
 paper_et_al: true
 summary: "This large multicenter real-world study of nearly 2,000 patients with drug-resistant focal epilepsy found cenobamate significantly more effective than brivaracetam, lacosamide, and perampanel for seizure reduction and freedom. Despite higher adverse effect rates, cenobamate showed superior treatment retention, providing practical guidance for ASM selection in refractory cases."
+author_context: "Multi-institutional Italian collaboration led by epilepsy specialists from Sapienza University Rome and 71 epilepsy centers"
 ---
-
-[Read the full paper](https://doi.org/10.1001/jamaneurol.2025.5625)
-
-<!-- Multi-institutional Italian collaboration led by epilepsy specialists from Sapienza University Rome and 71 epilepsy centers -->
 
 **Problem**: Direct comparative effectiveness data among newer antiseizure medications in drug-resistant focal epilepsy has been limited, making treatment selection largely empirical.
 

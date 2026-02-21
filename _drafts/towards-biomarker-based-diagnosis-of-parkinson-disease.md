@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1038/s41582-026-01185-z"
 paper_et_al: true
 summary: "This comprehensive review examines the potential for α-synuclein seed amplification assays and other biomarkers to revolutionize Parkinson's disease diagnosis by enabling detection before classical motor symptoms appear. The authors discuss emerging biological disease definitions based on these molecular markers and their implications for earlier intervention and personalized treatment approaches."
+author_context: "International consortium of leading PD experts from Barcelona, Innsbruck, London, Stockholm, and other major movement disorder centers"
 ---
-
-[Read the full paper](https://doi.org/10.1038/s41582-026-01185-z)
-
-<!-- International consortium of leading PD experts from Barcelona, Innsbruck, London, Stockholm, and other major movement disorder centers -->
 
 **Problem**: Current clinical diagnostic criteria for Parkinson's disease are insensitive to early-stage disease and lack validated biomarker-based frameworks for accurate diagnosis.
 

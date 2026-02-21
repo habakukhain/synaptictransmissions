@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1007/s00415-026-13676-6"
 paper_et_al: true
 summary: "This real-world study of 200 patients shows that blood p-tau217 testing changed clinical diagnosis in 25.5% of cases and significantly improved physician diagnostic confidence from 6.90 to 8.49 (on 0-10 scale). The biomarker improved diagnostic accuracy across all cognitive stages in both general neurology and specialized memory clinics."
+author_context: "Multicenter Spanish study led by neurologists from Hospital Clínico San Carlos, Madrid, with expertise in cognitive disorders and laboratory medicine"
 ---
-
-[Read the full paper](https://doi.org/10.1007/s00415-026-13676-6)
-
-<!-- Multicenter Spanish study led by neurologists from Hospital Clínico San Carlos, Madrid, with expertise in cognitive disorders and laboratory medicine -->
 
 **Problem**: The real-world clinical utility and impact of blood p-tau217 testing on diagnostic accuracy and physician confidence in cognitive disorders remained unclear despite laboratory validation studies.
 

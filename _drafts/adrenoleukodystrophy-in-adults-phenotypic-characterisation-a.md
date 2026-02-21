@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1136/jnnp-2025-337540"
 paper_et_al: true
 summary: "This large Italian cohort of 140 adult ALD patients identifies a distinct intermediate phenotype (ALMN) with worse prognosis than typical AMN, and shows unexpectedly low rates of cerebral progression in Italian AMN patients. Brainstem auditory evoked potentials were consistently abnormal and may help differentiate ALD from hereditary spastic paraplegias in clinical practice."
+author_context: "Rare neurological diseases specialists from Carlo Besta Institute, Milan - a major European reference center for leukodystrophies"
 ---
-
-[Read the full paper](https://doi.org/10.1136/jnnp-2025-337540)
-
-<!-- Rare neurological diseases specialists from Carlo Besta Institute, Milan - a major European reference center for leukodystrophies -->
 
 **Problem**: Adult ALD phenotypic heterogeneity complicates prognosis and clinical trial design, requiring better characterization of disease subtypes and natural history.
 

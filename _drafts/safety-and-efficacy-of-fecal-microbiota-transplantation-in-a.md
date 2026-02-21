@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1002/ana.78153"
 paper_et_al: true
 summary: "This randomized, double-blinded, placebo-controlled trial of 59 Parkinson's disease patients found that single fecal microbiota transplantation did not improve motor symptoms at 12 months but showed benefits for some non-motor symptoms. The study represents the first rigorous RCT testing FMT in PD, providing important negative results for motor outcomes while suggesting potential gut-brain axis effects."
+author_context: "Polish neurologists from Medical University of Warsaw with gastroenterology collaboration, using commercially prepared microbiota (Mbiotix)"
 ---
-
-[Read the full paper](https://doi.org/10.1002/ana.78153)
-
-<!-- Polish neurologists from Medical University of Warsaw with gastroenterology collaboration, using commercially prepared microbiota (Mbiotix) -->
 
 **Problem**: Whether fecal microbiota transplantation can improve motor and non-motor symptoms in Parkinson's disease through gut-brain axis modulation.
 

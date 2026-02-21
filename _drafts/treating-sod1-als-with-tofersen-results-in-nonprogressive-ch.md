@@ -13,11 +13,8 @@ paper_year: "2026"
 paper_doi: "https://doi.org/10.1007/s00415-025-13579-y"
 paper_et_al: true
 summary: "Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease."
+author_context: "Neurologists from Landspitali University Hospital Iceland with collaboration from Swedish ALS expertise"
 ---
-
-[Read the full paper](https://doi.org/10.1007/s00415-025-13579-y)
-
-<!-- Neurologists from Landspitali University Hospital Iceland with collaboration from Swedish ALS expertise -->
 
 **Problem**: Whether intrathecal tofersen can alter the progressive course of SOD1-ALS and what constitutes meaningful clinical response.
 
