@@ -33,7 +33,7 @@ papers:
   paper_journal: J Neurol
   paper_doi: https://doi.org/10.1007/s00415-025-13579-y
   paper_et_al: true
-  questions: [als-treatment-timing]
+  questions: [als-genetic-testing]
   summary: |-
     Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease.
   tags:
