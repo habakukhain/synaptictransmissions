@@ -1,6 +1,6 @@
 ---
 layout: collated
-title: ALS Research Roundup
+title: ALS Roundup
 author: Habakuk Hain
 categories: convergence
 papers:
@@ -49,3 +49,5 @@ papers:
 
     **Open Questions**: The durability of response, optimal timing of treatment initiation, and whether similar outcomes occur with other SOD1 mutations remain unclear.
 ---
+
+There is a lot of movement in the ALS space. Some recent advances include insight into the pathomechanism of one genetic variant and reports of the first successful treatment with no evidence of disease progression of another genetic variant.
