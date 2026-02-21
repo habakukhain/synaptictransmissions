@@ -4,6 +4,7 @@ title: "MS progression despite high-efficacy therapy."
 date: "2026-02-21 15:04:48"
 author: "Habakuk Hain"
 categories: "transmission"
+slug: 2
 tags: ["PIRMA", "high-efficacy therapies", "multiple sclerosis"]
 image:
 rating: 6

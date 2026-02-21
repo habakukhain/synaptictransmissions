@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: "post"
 title: "Complement deposition in NMOSD, MOGAD, and MS."
 author: "Habakuk Hain"
-categories: transmission
+categories: "transmission"
+slug: 1
 tags: ["complement deposition", "NMOSD pathology", "MOGAD subtypes"]
 image:
 rating: 8
@@ -15,9 +16,8 @@ paper_et_al: true
 summary: "Histopathological analysis of CNS tissues reveals distinct complement deposition patterns in NMOSD, MOGAD, and MS that reflect their different pathogenic mechanisms. Most importantly, MOGAD shows two distinct pathological subtypes based on complement activation intensity, with more intense C9neo deposition associated with higher mortality."
 author_context: "International collaboration led by Tohoku University (Japan) and Medical University of Vienna neuropathology groups, established experts in inflammatory CNS demyelinating disease pathology"
 ---
-
 **Problem**: The role of complement in MOGAD and MS pathogenesis remains unclear despite established complement involvement in NMOSD. This is particularly interesting since we have effective complement inhibitors as a potential therapeutic option.
 
-**Result**: MOGAD exhibits two distinct pathological phenotypes based on complement C9neo deposition intensity, with the more destructive pattern pattern of intense C9neo deposition (27% of cases) associated with oligodendrocyte loss and increased mortality.
+**Result**: MOGAD exhibits two distinct pathological phenotypes based on complement C9neo deposition intensity, with the more destructive pattern of intense C9neo deposition (27% of cases) associated with oligodendrocyte loss and increased mortality.
 
 **Open Questions**: Whether MOGAD pathological subtypes correlate with specific clinical features, treatment responses, or can be predicted by biomarkers in living patients remains unknown.
