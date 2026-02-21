@@ -36,13 +36,8 @@ layout: default
 </blockquote>
 {% endif %}
 <p class="paper-citation">
-  {{ page.paper_author }}{% if page.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ page.paper_journal }}</em> {{ page.paper_year }}: {{ page.paper_title }}
+  {{ page.paper_author }}{% if page.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ page.paper_journal }}</em> {{ page.paper_year }}: {{ page.paper_title }} {% if page.paper_doi %} <a href="{{ page.paper_doi }}">Read the full paper</a>{% endif %}
 </p>
-{% if page.paper_doi %}
-<p class="paper-link">
-  <a href="{{ page.paper_doi }}">Read the full paper</a>
-</p>
-{% endif %}
 {% endif %}
 
 {% if page.image %}
