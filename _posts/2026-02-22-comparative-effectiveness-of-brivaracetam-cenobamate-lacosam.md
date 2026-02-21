@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Comparative Effectiveness of Brivaracetam, Cenobamate, Lacosamide, and Perampanel in Focal Epilepsy."
+title: "Comparing effectiveness of newer antiseizure medications."
 date: "2026-02-22 05:00:00"
 author: "Habakuk Hain"
 categories: transmission
