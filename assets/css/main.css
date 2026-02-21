@@ -143,6 +143,10 @@ hr {
   text-align: justify;
 }
 
+.post-container p {
+  text-align: justify;
+}
+
 .post-container h1,
 .post-container h2,
 .post-container h3,
