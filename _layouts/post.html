@@ -36,7 +36,7 @@ layout: default
 </blockquote>
 {% endif %}
 <p class="paper-citation">
-  {{ page.paper_author }}{% if page.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ page.paper_journal }}</em> {{ page.paper_year }}: {{ page.paper_title }} {% if page.paper_doi %} <a href="{{ page.paper_doi }}">Read the full paper</a>{% endif %}
+  {{ page.paper_author }}{% if page.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ page.paper_journal }}</em> {{ page.paper_year }}: {{ page.paper_title }} {% if page.paper_doi %} <a href="{{ page.paper_doi }}">Read the full paper.</a>{% endif %}
 </p>
 {% endif %}
 
@@ -51,10 +51,10 @@ layout: default
   {% assign d = page.date | date: "%-d"  %}
   {{ page.date | date: "%B" }}
   {% case d %}
-    {% when '1' or '21' or '31' %}{{ d }}st
-    {% when '2' or '22' %}{{ d }}nd
-    {% when '3' or '23' %}{{ d }}rd
-    {% else %}{{ d }}th{% endcase %},
+    {% when '1' or '21' or '31' %}{{d}}st
+    {% when '2' or '22' %}{{d}}nd
+    {% when '3' or '23' %}{{d}}rd
+    {% else %}{{d}}th{% endcase %},
   {{ page.date | date: "%Y" }}
   by
   {% if page.author %}
@@ -64,8 +64,8 @@ layout: default
   {% endif %}
 </span>
 
-{% include social-sharing.html %}
+<!-- {% include social-sharing.html %} -->
 
-{% include related-posts.html %}
+<!-- {% include related-posts.html %} -->
 
 {% include comments.html %}

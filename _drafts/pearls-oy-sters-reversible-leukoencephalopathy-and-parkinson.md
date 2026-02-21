@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pearls & Oy-sters: Reversible Leukoencephalopathy and Parkinsonism Due to CNS Involvement in Cryoglobulinemia."
+title: "Reversible Leukoencephalopathy and Parkinsonism in Cryoglobulinemia."
 author: "Habakuk Hain"
 categories: transmission
 tags: ["cryoglobulinemia", "reversible parkinsonism", "leukoencephalopathy"]

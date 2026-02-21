@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pearls & Oy-sters: Hereditary Spastic Paraplegia Type 15 Presenting as Juvenile Onset Levodopa-Responsive Parkinsonism."
+title: "Hereditary Spastic Paraplegia Type 15 Presenting as Parkinsonism."
 author: "Habakuk Hain"
 categories: transmission
 tags: ["hereditary spastic paraplegia", "juvenile parkinsonism", "ZFYVE26"]
