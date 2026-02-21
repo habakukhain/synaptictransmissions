@@ -4,6 +4,7 @@ title: "Deep brain stimulation for epilepsy: optimal targeting and clinical outc
 author: "Habakuk Hain"
 categories: transmission
 tags: ["deep brain stimulation", "drug-resistant epilepsy", "thalamic targeting"]
+date: "2026-02-23 05:00:00"
 image:
 rating: 6
 paper_title: "Deep brain stimulation for epilepsy: optimal targeting and clinical outcomes."

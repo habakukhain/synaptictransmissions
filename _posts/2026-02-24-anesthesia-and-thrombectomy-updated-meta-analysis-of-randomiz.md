@@ -3,6 +3,7 @@ layout: post
 title: "Anesthesia and thrombectomy: updated meta-analysis of randomized controlled trials."
 author: "Habakuk Hain"
 categories: transmission
+date: "2026-02-24 05:00:00"
 tags: ["thrombectomy", "general anesthesia", "functional outcomes"]
 image:
 rating: 6
@@ -16,7 +17,7 @@ summary: "Updated meta-analysis of 10 RCTs shows general anesthesia during throm
 author_context: "Authors from major academic centers with expertise in neurosurgery and neurointerventional procedures (Stony Brook, University of Washington, Mass General)"
 ---
 
-**Problem**: Whether general anesthesia versus conscious sedation provides superior outcomes during endovascular thrombectomy for large vessel occlusion stroke.
+**Problem**: Anesthesiology definitely needs to be involved in stroke codes where thrombectomy is an option, but whether general anesthesia versus conscious sedation provides superior outcomes during endovascular thrombectomy for large vessel occlusion stroke has been an open question.
 
 **Result**: General anesthesia significantly improved both revascularization success (OR 1.79) and functional independence in appropriately selected patients (OR 1.58) without safety concerns.
 
