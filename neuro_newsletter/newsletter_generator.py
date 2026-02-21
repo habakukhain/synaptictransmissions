@@ -322,6 +322,7 @@ class NewsletterGenerator:
             "---",
             "layout: post",
             f'title: "{escaped_title}"',
+            "date:",
             f'author: "{author}"',
             "categories: transmission",
             f"tags: [{tags_formatted}]",
