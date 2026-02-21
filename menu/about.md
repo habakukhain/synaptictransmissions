@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Synaptic Transmissions is an attempt to stay current with the most important findings in neurology and adjacent fields.
+Synaptic Transmissions is an attempt to stay current with the most important findings in neurology and adjacent fields. This project started as an attempt to automatically filter the vast amounts of papers that are published every week by relevance. Currently, most drafts are created by an LLM and then again filtered and edited by a human. 
 
 The focus is on work that matters clinically—findings that change how we diagnose, treat, or think about neurological disease. But relevance extends beyond the bedside: papers that shift our understanding of pathophysiology, challenge established dogma, or simply make us see the nervous system differently also belong here.
 
