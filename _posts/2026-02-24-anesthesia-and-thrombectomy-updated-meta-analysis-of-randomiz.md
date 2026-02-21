@@ -2,7 +2,7 @@
 layout: post
 title: "Anesthesia and thrombectomy: updated meta-analysis of randomized controlled trials."
 author: "Habakuk Hain"
-categories: transmission
+categories: dienstag
 date: "2026-02-24 05:00:00"
 tags: ["thrombectomy", "general anesthesia", "functional outcomes"]
 image:
