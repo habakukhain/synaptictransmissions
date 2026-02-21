@@ -16,7 +16,7 @@ paper_et_al: true
 summary: "Large French registry study of 10,499 MS patients found that high-efficacy therapies (HET) do not meaningfully prevent progression independent of relapse and MRI activity (PIRMA) compared to moderate-efficacy therapies, despite better control of inflammatory activity. This challenges the assumption that more potent anti-inflammatory treatments will prevent all forms of disability progression in MS."
 author_context: "French MS Registry consortium led by researchers from major French MS centers including Lyon and Rennes, representing real-world clinical practice across France"
 ---
-**Problem**: Whether high-efficacy MS therapies can prevent progression independent of relapse and MRI activity (PIRMA), which represents a major unmet need in MS care.
+**Problem**: There is a paradigmatic shift in MS care on its way as evidence is accumulating that using high-efficacy therapies (HET) in early stages of the disease prevents relapses and decreases evidence of disease activity on sequential MRI scans. Whether high-efficacy MS therapies can prevent progression independent of relapse and MRI activity (PIRMA) is an open questions.
 
 **Result**: HET showed no meaningful advantage over moderate-efficacy therapies in preventing PIRMA, despite superior control of relapse-associated and MRI-associated worsening.
 

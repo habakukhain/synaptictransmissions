@@ -16,7 +16,7 @@ summary: "Histopathological analysis of CNS tissues reveals distinct complement 
 author_context: "International collaboration led by Tohoku University (Japan) and Medical University of Vienna neuropathology groups, established experts in inflammatory CNS demyelinating disease pathology"
 ---
 
-**Problem**: The role of complement in MOGAD and MS pathogenesis remains unclear despite established complement involvement in NMOSD.
+**Problem**: The role of complement in MOGAD and MS pathogenesis remains unclear despite established complement involvement in NMOSD. This is particularly interesting since we have effective complement inhibitors as a potential therapeutic option.
 
 **Result**: MOGAD exhibits two distinct pathological phenotypes based on complement C9neo deposition intensity, with the more destructive type B pattern (27% of cases) associated with oligodendrocyte loss and increased mortality.
 
