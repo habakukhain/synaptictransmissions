@@ -17,7 +17,7 @@ title: Home
         {% break %}
       {% endif %}
     {% endfor %}
-    {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number %}
+    {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number | append: ": " | append: post.title %}
   {% else %}
     {% assign display_title = post.title %}
   {% endif %}

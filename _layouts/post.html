@@ -14,7 +14,7 @@ layout: default
       {% break %}
     {% endif %}
   {% endfor %}
-  {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number %}
+  {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number | append: ": " | append: page.title %}
 {% else %}
   {% assign display_title = page.title %}
 {% endif %}
