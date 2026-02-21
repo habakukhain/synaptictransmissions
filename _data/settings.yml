@@ -2,9 +2,9 @@
 google-ID: ''
 
 menu:
-- {name: 'Posts', path: 'menu', url: 'writing.html'}
-- {name: 'Open Questions', path: 'menu', url: 'open_questions.html'}
-- {name: 'About', path: 'menu', url: 'about.html'}
+- {name: 'Posts', url: '/posts/'}
+- {name: 'Questions', url: '/questions/'}
+- {name: 'About', url: '/about/'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
