@@ -21,13 +21,13 @@ post_categories:
     description: "Brief transmissions from the neural frontier."
   dienstag:
     title_prefix: "Dienstag Dienst"
-    description: "Weekly service updates and reflections."
+    description: "Weekly updates on findings that influence management of acute neurological conditions."
   radio_demo:
     title_prefix: "Radio-Demo"
-    description: "Demonstrations and explorations in audio format."
+    description: "Interesting neuroradiological cases and *blickdiagnoses*."
   conserved:
     title_prefix: "Conserved Feature"
-    description: "Patterns that persist across domains."
+    description: "Classical papers that are still relevant today."
   convergence:
     title_prefix: "Convergence"
-    description: "Where different fields meet."
+    description: "Round-up of int"
