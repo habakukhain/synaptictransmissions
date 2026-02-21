@@ -30,4 +30,4 @@ post_categories:
     description: "Classical papers that are still relevant today."
   convergence:
     title_prefix: "Convergence"
-    description: "Round-up of int"
+    description: "Weekly round-up of findings that did not fit anywhere else"
