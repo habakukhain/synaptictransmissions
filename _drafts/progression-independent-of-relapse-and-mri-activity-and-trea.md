@@ -2,15 +2,18 @@
 layout: post
 title: "Progression independent of relapse and MRI activity and treatment strategies in multiple sclerosis."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["PIRMA", "high-efficacy therapies", "multiple sclerosis"]
 image:
 rating: 6
+paper_title: "Progression independent of relapse and MRI activity and treatment strategies in multiple sclerosis."
+paper_author: "Rollot"
+paper_journal: "Brain"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1093/brain/awag060"
+paper_et_al: true
+summary: "Large French registry study of 10,499 MS patients found that high-efficacy therapies (HET) do not meaningfully prevent progression independent of relapse and MRI activity (PIRMA) compared to moderate-efficacy therapies, despite better control of inflammatory activity. This challenges the assumption that more potent anti-inflammatory treatments will prevent all forms of disability progression in MS."
 ---
-
-*Rollot et al., Brain : a journal of neurology 2026*
-
-> Large French registry study of 10,499 MS patients found that high-efficacy therapies (HET) do not meaningfully prevent progression independent of relapse and MRI activity (PIRMA) compared to moderate-efficacy therapies, despite better control of inflammatory activity. This challenges the assumption that more potent anti-inflammatory treatments will prevent all forms of disability progression in MS.
 
 [Read the full paper](https://doi.org/10.1093/brain/awag060)
 

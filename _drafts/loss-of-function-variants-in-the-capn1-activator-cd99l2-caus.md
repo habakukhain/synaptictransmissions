@@ -2,15 +2,18 @@
 layout: post
 title: "Loss-of-function variants in the CAPN1 activator CD99L2 cause X-linked spastic ataxia."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["X-linked spastic ataxia", "CD99L2", "CAPN1 activation"]
 image:
 rating: 8
+paper_title: "Loss-of-function variants in the CAPN1 activator CD99L2 cause X-linked spastic ataxia."
+paper_author: "Menden"
+paper_journal: "Nat Comm"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1038/s41467-026-69337-9"
+paper_et_al: true
+summary: "This large-scale genomic study of 2,811 movement disorder patients identified a novel X-linked spastic ataxia caused by loss-of-function variants in CD99L2, a transmembrane protein that activates the calcium-dependent protease CAPN1. The discovery reveals a new disease mechanism involving impaired proteolysis and synaptic dysfunction, while also demonstrating that genome sequencing beyond exomes increases diagnostic yield by 7.5% in movement disorders."
 ---
-
-*Menden et al., Nat Comm 2026*
-
-> This large-scale genomic study of 2,811 movement disorder patients identified a novel X-linked spastic ataxia caused by loss-of-function variants in CD99L2, a transmembrane protein that activates the calcium-dependent protease CAPN1. The discovery reveals a new disease mechanism involving impaired proteolysis and synaptic dysfunction, while also demonstrating that genome sequencing beyond exomes increases diagnostic yield by 7.5% in movement disorders.
 
 [Read the full paper](https://doi.org/10.1038/s41467-026-69337-9)
 

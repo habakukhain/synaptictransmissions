@@ -2,15 +2,18 @@
 layout: post
 title: "Treating SOD1-ALS with tofersen results in nonprogressive chronic ALS-a case series from Iceland."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["SOD1-ALS", "tofersen", "antisense oligonucleotide"]
 image:
 rating: 8
+paper_title: "Treating SOD1-ALS with tofersen results in nonprogressive chronic ALS-a case series from Iceland."
+paper_author: "Thorarinsson"
+paper_journal: "J Neurol"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1007/s00415-025-13579-y"
+paper_et_al: true
+summary: "Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease."
 ---
-
-*Thorarinsson et al., Journal of neurology 2026*
-
-> Four patients with SOD1 p.Gly94Ser mutation-associated ALS treated with intrathecal tofersen showed arrest of disease progression and three demonstrated clinical improvement over 15-26 months. This case series documents a previously unobserved 'chronic nonprogressive ALS' phenotype with normalized CSF neurofilament light chain levels, including meaningful responses in patients with established disease.
 
 [Read the full paper](https://doi.org/10.1007/s00415-025-13579-y)
 

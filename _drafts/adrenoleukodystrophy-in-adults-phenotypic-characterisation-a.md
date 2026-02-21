@@ -2,15 +2,18 @@
 layout: post
 title: "Adrenoleukodystrophy in adults: phenotypic characterisation and natural history in a large cohort."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["adrenoleukodystrophy", "adrenomyeloneuropathy", "ABCD1"]
 image:
 rating: 6
+paper_title: "Adrenoleukodystrophy in adults: phenotypic characterisation and natural history in a large cohort."
+paper_author: "Benzoni"
+paper_journal: "JNNP"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1136/jnnp-2025-337540"
+paper_et_al: true
+summary: "This large Italian cohort of 140 adult ALD patients identifies a distinct intermediate phenotype (ALMN) with worse prognosis than typical AMN, and shows unexpectedly low rates of cerebral progression in Italian AMN patients. Brainstem auditory evoked potentials were consistently abnormal and may help differentiate ALD from hereditary spastic paraplegias in clinical practice."
 ---
-
-*Benzoni et al., Journal of neurology, neurosurgery, and psychiatry 2026*
-
-> This large Italian cohort of 140 adult ALD patients identifies a distinct intermediate phenotype (ALMN) with worse prognosis than typical AMN, and shows unexpectedly low rates of cerebral progression in Italian AMN patients. Brainstem auditory evoked potentials were consistently abnormal and may help differentiate ALD from hereditary spastic paraplegias in clinical practice.
 
 [Read the full paper](https://doi.org/10.1136/jnnp-2025-337540)
 

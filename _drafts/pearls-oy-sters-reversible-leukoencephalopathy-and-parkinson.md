@@ -2,15 +2,18 @@
 layout: post
 title: "Pearls & Oy-sters: Reversible Leukoencephalopathy and Parkinsonism Due to CNS Involvement in Cryoglobulinemia."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["cryoglobulinemia", "reversible parkinsonism", "leukoencephalopathy"]
 image:
 rating: 6
+paper_title: "Pearls & Oy-sters: Reversible Leukoencephalopathy and Parkinsonism Due to CNS Involvement in Cryoglobulinemia."
+paper_author: "German"
+paper_journal: "Neurology"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1212/WNL.0000000000214622"
+paper_et_al: true
+summary: "This case demonstrates that cryoglobulinemic vasculitis can cause reversible parkinsonism and leukoencephalopathy that mimics neurodegenerative disease, responding dramatically to immunosuppression. The patient had type III mixed cryoglobulinemia without typical triggers (hepatitis C or monoclonal gammopathy), presenting with tremor, rigidity, cognitive decline, and extensive white matter changes."
 ---
-
-*German et al., Neurology 2026*
-
-> This case demonstrates that cryoglobulinemic vasculitis can cause reversible parkinsonism and leukoencephalopathy that mimics neurodegenerative disease, responding dramatically to immunosuppression. The patient had type III mixed cryoglobulinemia without typical triggers (hepatitis C or monoclonal gammopathy), presenting with tremor, rigidity, cognitive decline, and extensive white matter changes.
 
 [Read the full paper](https://doi.org/10.1212/WNL.0000000000214622)
 

@@ -2,15 +2,18 @@
 layout: post
 title: "Pearls & Oy-sters: Hereditary Spastic Paraplegia Type 15 Presenting as Juvenile Onset Levodopa-Responsive Parkinsonism."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["hereditary spastic paraplegia", "juvenile parkinsonism", "ZFYVE26"]
 image:
 rating: 6
+paper_title: "Pearls & Oy-sters: Hereditary Spastic Paraplegia Type 15 Presenting as Juvenile Onset Levodopa-Responsive Parkinsonism."
+paper_author: "Thatikala"
+paper_journal: "Neurology"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1212/WNL.0000000000214514"
+paper_et_al: true
+summary: "A 27-year-old man initially diagnosed with juvenile-onset Parkinson's disease and treated with levodopa was ultimately found to have SPG15 (hereditary spastic paraplegia) after progressive loss of dopaminergic responsiveness. This case demonstrates that some forms of HSP can present with parkinsonian features and initial levodopa responsiveness, highlighting the importance of comprehensive genetic testing when atypical features emerge."
 ---
-
-*Thatikala et al., Neurology 2026*
-
-> A 27-year-old man initially diagnosed with juvenile-onset Parkinson's disease and treated with levodopa was ultimately found to have SPG15 (hereditary spastic paraplegia) after progressive loss of dopaminergic responsiveness. This case demonstrates that some forms of HSP can present with parkinsonian features and initial levodopa responsiveness, highlighting the importance of comprehensive genetic testing when atypical features emerge.
 
 [Read the full paper](https://doi.org/10.1212/WNL.0000000000214514)
 

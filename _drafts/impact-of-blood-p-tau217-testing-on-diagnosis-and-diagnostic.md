@@ -2,15 +2,18 @@
 layout: post
 title: "Impact of blood p-tau217 testing on diagnosis and diagnostic confidence in cognitive disorders: a real-world clinical study."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["p-tau217", "Alzheimer biomarkers", "diagnostic confidence"]
 image:
 rating: 8
+paper_title: "Impact of blood p-tau217 testing on diagnosis and diagnostic confidence in cognitive disorders: a real-world clinical study."
+paper_author: "Matías-Guiu"
+paper_journal: "J Neurol"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1007/s00415-026-13676-6"
+paper_et_al: true
+summary: "This real-world study of 200 patients shows that blood p-tau217 testing changed clinical diagnosis in 25.5% of cases and significantly improved physician diagnostic confidence from 6.90 to 8.49 (on 0-10 scale). The biomarker improved diagnostic accuracy across all cognitive stages in both general neurology and specialized memory clinics."
 ---
-
-*Matías-Guiu et al., Journal of neurology 2026*
-
-> This real-world study of 200 patients shows that blood p-tau217 testing changed clinical diagnosis in 25.5% of cases and significantly improved physician diagnostic confidence from 6.90 to 8.49 (on 0-10 scale). The biomarker improved diagnostic accuracy across all cognitive stages in both general neurology and specialized memory clinics.
 
 [Read the full paper](https://doi.org/10.1007/s00415-026-13676-6)
 

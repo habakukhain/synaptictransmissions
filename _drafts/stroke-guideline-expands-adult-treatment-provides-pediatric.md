@@ -2,15 +2,18 @@
 layout: post
 title: "Stroke Guideline Expands Adult Treatment, Provides Pediatric Recommendations."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["stroke guidelines", "treatment recommendations", "pediatric stroke"]
 image:
 rating: 6
+paper_title: "Stroke Guideline Expands Adult Treatment, Provides Pediatric Recommendations."
+paper_author: "Anderer"
+paper_journal: "JAMA"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1001/jama.2025.26391"
+paper_et_al: false
+summary: "New stroke guidelines expand treatment options for adult patients while providing specific recommendations for pediatric stroke management. The guidelines likely incorporate recent evidence to broaden therapeutic windows or treatment eligibility criteria for adult stroke interventions."
 ---
-
-*Anderer, JAMA 2026*
-
-> New stroke guidelines expand treatment options for adult patients while providing specific recommendations for pediatric stroke management. The guidelines likely incorporate recent evidence to broaden therapeutic windows or treatment eligibility criteria for adult stroke interventions.
 
 [Read the full paper](https://doi.org/10.1001/jama.2025.26391)
 

@@ -2,15 +2,18 @@
 layout: post
 title: "Myelin sheaths in the central nervous system can withstand damage and dynamically remodel."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["myelin swelling", "demyelination reversibility", "neuronal activity"]
 image:
 rating: 8
+paper_title: "Myelin sheaths in the central nervous system can withstand damage and dynamically remodel."
+paper_author: "Arafa"
+paper_journal: "Science"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1126/science.adr4661"
+paper_et_al: true
+summary: "This study reveals that myelin damage begins with swelling that can be reversible rather than immediate destruction, challenging the traditional view of demyelination as purely degenerative. Using live imaging in animal models and human MS tissue, researchers found that increased neuronal activity worsens myelin swelling while reduced activity is protective."
 ---
-
-*Arafa et al., Science (New York, N.Y.) 2026*
-
-> This study reveals that myelin damage begins with swelling that can be reversible rather than immediate destruction, challenging the traditional view of demyelination as purely degenerative. Using live imaging in animal models and human MS tissue, researchers found that increased neuronal activity worsens myelin swelling while reduced activity is protective.
 
 [Read the full paper](https://doi.org/10.1126/science.adr4661)
 

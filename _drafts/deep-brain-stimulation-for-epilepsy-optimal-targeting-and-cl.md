@@ -2,15 +2,18 @@
 layout: post
 title: "Deep brain stimulation for epilepsy: optimal targeting and clinical outcomes."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["deep brain stimulation", "drug-resistant epilepsy", "thalamic targeting"]
 image:
 rating: 6
+paper_title: "Deep brain stimulation for epilepsy: optimal targeting and clinical outcomes."
+paper_author: "Hart"
+paper_journal: "JNNP"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1136/jnnp-2025-337218"
+paper_et_al: true
+summary: "This systematic review of 124 studies (1210 patients) demonstrates that precise anatomical targeting in DBS for epilepsy significantly impacts outcomes, with ANT-DBS success correlating with proximity to the mammillothalamic tract junction. The analysis reveals substantial variability in current targeting approaches and provides quantitative evidence that electrode placement precision matters for seizure reduction."
 ---
-
-*Hart et al., Journal of neurology, neurosurgery, and psychiatry 2026*
-
-> This systematic review of 124 studies (1210 patients) demonstrates that precise anatomical targeting in DBS for epilepsy significantly impacts outcomes, with ANT-DBS success correlating with proximity to the mammillothalamic tract junction. The analysis reveals substantial variability in current targeting approaches and provides quantitative evidence that electrode placement precision matters for seizure reduction.
 
 [Read the full paper](https://doi.org/10.1136/jnnp-2025-337218)
 

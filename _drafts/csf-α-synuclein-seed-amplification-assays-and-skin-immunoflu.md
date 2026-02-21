@@ -2,15 +2,18 @@
 layout: post
 title: "CSF α-Synuclein Seed Amplification Assays and Skin Immunofluorescence: Clinical Applications, Research Opportunities, and Knowledge Gaps."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["alpha-synuclein biomarkers", "seed amplification assay", "synucleinopathy diagnosis"]
 image:
 rating: 8
+paper_title: "CSF α-Synuclein Seed Amplification Assays and Skin Immunofluorescence: Clinical Applications, Research Opportunities, and Knowledge Gaps."
+paper_author: "Coughlin"
+paper_journal: "Neurology"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1212/WNL.0000000000214648"
+paper_et_al: true
+summary: "This comprehensive review examines two newly available commercial biomarker tests for detecting pathologic α-synuclein: CSF seed amplification assays and skin phospho-α-synuclein immunofluorescence. The authors discuss clinical applications, research opportunities, and critical knowledge gaps while calling for formal clinical use guidelines for these potentially practice-changing diagnostic tools."
 ---
-
-*Coughlin et al., Neurology 2026*
-
-> This comprehensive review examines two newly available commercial biomarker tests for detecting pathologic α-synuclein: CSF seed amplification assays and skin phospho-α-synuclein immunofluorescence. The authors discuss clinical applications, research opportunities, and critical knowledge gaps while calling for formal clinical use guidelines for these potentially practice-changing diagnostic tools.
 
 [Read the full paper](https://doi.org/10.1212/WNL.0000000000214648)
 

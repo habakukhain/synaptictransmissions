@@ -6,11 +6,14 @@ categories: transmission
 tags: ["complement deposition", "NMOSD pathology", "MOGAD subtypes"]
 image:
 rating: 8
+paper_title: "Characteristic patterns of complement deposition in NMOSD, MOGAD, and MS."
+paper_author: "Takai"
+paper_journal: "Acta neuropathologica"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1007/s00401-026-02985-9"
+paper_et_al: true
+summary: "Histopathological analysis of CNS tissues reveals distinct complement deposition patterns in NMOSD, MOGAD, and MS that reflect their different pathogenic mechanisms. Most importantly, MOGAD shows two distinct pathological subtypes based on complement activation intensity, with the more destructive type B pattern associated with mortality."
 ---
-
-*Takai et al., Acta neuropathologica 2026*
-
-> Histopathological analysis of CNS tissues reveals distinct complement deposition patterns in NMOSD, MOGAD, and MS that reflect their different pathogenic mechanisms. Most importantly, MOGAD shows two distinct pathological subtypes based on complement activation intensity, with the more destructive type B pattern associated with mortality.
 
 [Read the full paper](https://doi.org/10.1007/s00401-026-02985-9)
 

@@ -2,15 +2,18 @@
 layout: post
 title: "Dual recruitment of two CCM2 molecules to KRIT1 suppresses KLF4 expression."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["cerebral cavernous malformations", "KLF4 transcription factor", "endothelial dysfunction"]
 image:
 rating: 8
+paper_title: "Dual recruitment of two CCM2 molecules to KRIT1 suppresses KLF4 expression."
+paper_author: "Huet-Calderwood"
+paper_journal: "Nat Comm"
+paper_year: "2026"
+paper_doi: "https://doi.org/10.1038/s41467-026-69595-7"
+paper_et_al: true
+summary: "This study reveals that two CCM2 proteins must cluster on a single KRIT1 protein to properly suppress KLF4 transcription factor expression in endothelial cells. When this clustering fails due to mutations in either KRIT1 or CCM2, KLF4 overexpression leads to the endothelial dysfunction characteristic of cerebral cavernous malformations."
 ---
-
-*Huet-Calderwood et al., Nat Comm 2026*
-
-> This study reveals that two CCM2 proteins must cluster on a single KRIT1 protein to properly suppress KLF4 transcription factor expression in endothelial cells. When this clustering fails due to mutations in either KRIT1 or CCM2, KLF4 overexpression leads to the endothelial dysfunction characteristic of cerebral cavernous malformations.
 
 [Read the full paper](https://doi.org/10.1038/s41467-026-69595-7)
 
