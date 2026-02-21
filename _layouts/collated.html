@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% assign category = page.categories | first %}
+{% assign cat_config = site.post_categories[category] %}
+
+{% if cat_config %}
+  {% assign display_title = page.title %}
+{% else %}
+  {% assign display_title = page.title %}
+{% endif %}
+
+{% if cat_config.description %}
+<p class="post-type-description">
+  <em>{{ cat_config.description }}</em>
+</p>
+{% endif %}
+
+<h1>{{ display_title }}</h1>
+
+{{ content }}
+
+{% if page.papers %}
+<div class="collated-papers">
+  {% for paper in page.papers %}
+  <article class="paper-entry" id="{{ paper.slug }}">
+    <h2>
+      <a href="#{{ paper.slug }}" class="paper-anchor">#</a>
+      {{ paper.title }}
+    </h2>
+
+    {% if paper.summary %}
+    <blockquote class="paper-summary">
+      {{ paper.summary }}
+    </blockquote>
+    {% endif %}
+
+    <p class="paper-citation">
+      {{ paper.paper_author }}{% if paper.paper_et_al %} <em>et al</em>{% endif %}, <em>{{ paper.paper_journal }}</em> {{ paper.paper_year }}: {{ paper.title }} {% if paper.paper_doi %}<a href="{{ paper.paper_doi }}">Read the full paper.</a>{% endif %}
+    </p>
+
+    <div class="paper-content">
+      {{ paper.content | markdownify }}
+    </div>
+
+    {% if paper.questions %}
+    <div class="paper-questions">
+      <strong>Related Questions:</strong>
+      <ul>
+        {% for question_slug in paper.questions %}
+          {% assign question = site.questions | where: "slug", question_slug | first %}
+          {% if question %}
+          <li><a href="{{ question.url | relative_url }}">{{ question.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+<span class="post-date">
+  {{ site.data.settings.post_date_prefix }}
+  {% assign d = page.date | date: "%-d"  %}
+  {{ page.date | date: "%B" }}
+  {% case d %}
+    {% when '1' or '21' or '31' %}{{d}}st
+    {% when '2' or '22' %}{{d}}nd
+    {% when '3' or '23' %}{{d}}rd
+    {% else %}{{d}}th{% endcase %},
+  {{ page.date | date: "%Y" }}
+  by
+  {% if page.author %}
+    {{ page.author }}
+  {% else %}
+    {{ site.author }}
+  {% endif %}
+</span>
+
+{% include comments.html %}
