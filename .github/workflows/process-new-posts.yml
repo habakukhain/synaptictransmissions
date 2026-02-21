@@ -6,6 +6,9 @@ on:
       - '_posts/**'
   workflow_dispatch: # Allow manual trigger
 
+permissions:
+  contents: write
+
 jobs:
   process-posts:
     runs-on: ubuntu-latest
@@ -35,7 +38,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Auto-process: add dates to new posts
+            git commit -m "[skip ci] Auto-process: add dates to new posts
 
           Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
             git push
