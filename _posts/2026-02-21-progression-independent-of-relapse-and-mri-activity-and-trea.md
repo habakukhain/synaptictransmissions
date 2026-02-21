@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Progression independent of relapse and MRI activity and treatment strategies in multiple sclerosis."
+title: "MS progression despite high-efficacy therapy."
 date: "2026-02-21 15:04:48"
 author: "Habakuk Hain"
 categories: "transmission"
