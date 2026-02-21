@@ -15,4 +15,4 @@ This is a personal filter, not a comprehensive review. The selection reflects on
 - **Dienstag Dienst** — Weekly updates on findings relevant to acute neurology
 - **Radio-Demo** — Neuroradiological cases and pattern recognition
 - **Conserved Features** — Classical papers that remain relevant today
-- **Convergence** — Weekly round-up of findings that defy easy categorization
+- **Convergence** — Weekly round-up of potentially relevant papers that I didn't manage to create a seperate post for. Most of those I found interesting from reading the abstract, but didn't get around reading the full thing. 
