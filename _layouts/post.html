@@ -46,6 +46,20 @@ layout: default
 
 {{ content }}
 
+{% if page.questions %}
+<div class="open-questions">
+  <h3>Related Open Questions</h3>
+  <ul>
+    {% for question_slug in page.questions %}
+      {% assign question = site.questions | where: "slug", question_slug | first %}
+      {% if question %}
+      <li><a href="{{ question.url | relative_url }}">{{ question.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+
 <span class="post-date">
   {{ site.data.settings.post_date_prefix }}
   {% assign d = page.date | date: "%-d"  %}

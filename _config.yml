@@ -1,6 +1,12 @@
 # Site Build Settings
 paginate: 5
 
+# Collections
+collections:
+  questions:
+    output: true
+    permalink: /questions/:name/
+
 # Build settings
 markdown:            kramdown
 highlighter:         rouge

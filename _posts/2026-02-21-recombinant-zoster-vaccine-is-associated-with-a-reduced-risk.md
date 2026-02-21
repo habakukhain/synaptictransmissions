@@ -4,6 +4,7 @@ title: "Recombinant zoster vaccine and dementia risk."
 author: "Habakuk Hain"
 categories: transmission
 tags: ["recombinant zoster vaccine", "dementia prevention", "neuroinflammation"]
+questions: [vzv-dementia]
 image:
 rating: 8
 paper_title: "Recombinant zoster vaccine is associated with a reduced risk of dementia."

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+{% assign relevant_posts = "" | split: "" %}
+{% for post in site.posts %}
+  {% if post.questions contains page.slug %}
+    {% assign relevant_posts = relevant_posts | push: post %}
+  {% endif %}
+{% endfor %}
+
+{% if relevant_posts.size > 0 %}
+<h2>Relevant Papers</h2>
+<ul>
+  {% for post in relevant_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="post-date">— {{ post.date | date: "%B %-d, %Y" }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
