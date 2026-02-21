@@ -4,7 +4,7 @@ title: "General anesthesia versus conscious sedation for thrombectomy."
 date: "2026-02-24 05:00:00"
 author: "Habakuk Hain"
 categories: "dienstag"
-slug: 1
+slug: "1"
 tags: ["thrombectomy", "general anesthesia", "functional outcomes"]
 image:
 rating: 6

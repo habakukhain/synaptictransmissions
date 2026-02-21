@@ -4,7 +4,7 @@ title: "Comparing effectiveness of newer antiseizure medications."
 date: "2026-02-22 05:00:00"
 author: "Habakuk Hain"
 categories: "transmission"
-slug: 4
+slug: "4"
 tags: ["cenobamate", "drug-resistant epilepsy", "comparative effectiveness"]
 image:
 rating: 6

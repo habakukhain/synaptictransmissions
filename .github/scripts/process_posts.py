@@ -229,7 +229,7 @@ def process_posts(posts_dir: str = '_posts') -> list[str]:
         for post in posts:
             if not post['has_slug']:
                 category_max_slug[category] += 1
-                post['front_matter']['slug'] = category_max_slug[category]
+                post['front_matter']['slug'] = str(category_max_slug[category])
                 post['new_slug'] = category_max_slug[category]
 
     # Second pass: write updated posts

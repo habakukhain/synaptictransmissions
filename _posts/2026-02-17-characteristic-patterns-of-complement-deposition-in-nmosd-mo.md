@@ -3,7 +3,7 @@ layout: "post"
 title: "Complement deposition in NMOSD, MOGAD, and MS."
 author: "Habakuk Hain"
 categories: "transmission"
-slug: 1
+slug: "1"
 tags: ["complement deposition", "NMOSD pathology", "MOGAD subtypes"]
 image:
 rating: 8
