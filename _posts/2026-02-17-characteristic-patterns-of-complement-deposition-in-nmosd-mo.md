@@ -2,7 +2,7 @@
 layout: post
 title: "Characteristic patterns of complement deposition in NMOSD, MOGAD, and MS."
 author: "Habakuk Hain"
-categories: journal
+categories: transmission
 tags: ["complement deposition", "NMOSD pathology", "MOGAD subtypes"]
 image:
 rating: 8

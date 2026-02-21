@@ -2,9 +2,32 @@
 layout: default
 ---
 
+{% assign category = page.categories | first %}
+{% assign cat_config = site.post_categories[category] %}
+
+{% if cat_config %}
+  {% assign cat_posts = site.posts | where_exp: "post", "post.categories contains category" | reverse %}
+  {% assign post_number = 0 %}
+  {% for post in cat_posts %}
+    {% assign post_number = post_number | plus: 1 %}
+    {% if post.url == page.url %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+  {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number %}
+{% else %}
+  {% assign display_title = page.title %}
+{% endif %}
+
 <h1>
-  {{ page.title }}
+  {{ display_title }}
 </h1>
+
+{% if cat_config.description %}
+<p class="post-type-description">
+  <em>{{ cat_config.description }}</em>
+</p>
+{% endif %}
 
 {% if page.image %}
   <img src="{{ site.github.url }}/assets/img/{{ page.image }}">

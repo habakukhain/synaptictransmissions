@@ -5,8 +5,25 @@ title: Home
 
 {% for post in paginator.posts %}
 <div class="posts">
+  {% assign category = post.categories | first %}
+  {% assign cat_config = site.post_categories[category] %}
+
+  {% if cat_config %}
+    {% assign cat_posts = site.posts | where_exp: "p", "p.categories contains category" | reverse %}
+    {% assign post_number = 0 %}
+    {% for p in cat_posts %}
+      {% assign post_number = post_number | plus: 1 %}
+      {% if p.url == post.url %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% assign display_title = cat_config.title_prefix | append: " #" | append: post_number %}
+  {% else %}
+    {% assign display_title = post.title %}
+  {% endif %}
+
   <h1>
-    <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ site.github.url }}{{ post.url }}">{{ display_title }}</a>
   </h1>
   {% if post.image %}
   <div class="thumbnail-container">

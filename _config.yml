@@ -13,3 +13,21 @@ description:	       'Central Latency Reduction'
 author:              'Habakuk Hain'
 
 theme: jekyll-theme-minimal
+
+# Post categories configuration
+post_categories:
+  transmission:
+    title_prefix: "Transmission"
+    description: "Brief transmissions from the neural frontier."
+  dienstag:
+    title_prefix: "Dienstag Dienst"
+    description: "Weekly service updates and reflections."
+  radio_demo:
+    title_prefix: "Radio-Demo"
+    description: "Demonstrations and explorations in audio format."
+  conserved:
+    title_prefix: "Conserved Feature"
+    description: "Patterns that persist across domains."
+  convergence:
+    title_prefix: "Convergence"
+    description: "Where different fields meet."
