@@ -10,7 +10,7 @@ collections:
 # Build settings
 markdown:            kramdown
 highlighter:         rouge
-permalink:           none
+permalink:           /posts/:categories-:title/
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
@@ -36,4 +36,4 @@ post_categories:
     description: "Classical papers that are still relevant today."
   convergence:
     title_prefix: "Convergence"
-    description: "Weekly round-up of findings that did not fit anywhere else"
+    description: "Round-up of findings that did not fit anywhere else"

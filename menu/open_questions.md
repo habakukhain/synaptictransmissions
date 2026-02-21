@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Open Questions
+permalink: /questions/
 comments: true
 ---
 

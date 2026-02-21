@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 Synaptic Transmissions is an attempt to stay current with the most important findings in neurology and adjacent fields. This project started as an attempt to automatically filter the vast amounts of papers that are published every week by relevance. Currently, most drafts are created by an LLM and then again filtered and edited by a human. 
@@ -15,4 +16,4 @@ This is a personal filter, not a comprehensive review. The selection reflects on
 - **Dienstag Dienst** — Weekly updates on findings relevant to acute neurology
 - **Radio-Demo** — Neuroradiological cases and pattern recognition
 - **Conserved Features** — Classical papers that remain relevant today
-- **Convergence** — Weekly round-up of potentially relevant papers that I didn't manage to create a seperate post for. Most of those I found interesting from reading the abstract, but didn't get around reading the full thing. 
+- **Convergence** — Thematic or weekly round-up of potentially relevant papers that I didn't manage to create a seperate post for. Most of those I found interesting from reading the abstract, but didn't get around reading the full thing. 
