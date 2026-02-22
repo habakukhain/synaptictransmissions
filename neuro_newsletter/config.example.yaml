@@ -1,0 +1,221 @@
+# Neuro Newsletter Configuration
+# API key: set via env var ANTHROPIC_API_KEY (recommended)
+# anthropic_api_key: ""
+
+journals:
+  # Specialty journals - fetch all papers
+  neuromuscular:
+    - "Neuromuscular Disorders"
+    - "Muscle Nerve"
+    - "Journal of Neuromuscular Diseases"
+    - "Journal of the Peripheral Nervous System"
+    - "Amyotrophic Lateral Sclerosis and Frontotemporal Degeneration"
+    - "Journal of Clinical Neuromuscular Disease"
+    - "Neurology Genetics"
+
+  neurovascular:
+    - "Stroke"
+    - "International Journal of Stroke"
+    - "Journal of Stroke and Cerebrovascular Diseases"
+    - "Cerebrovascular Diseases"
+    - "Journal of NeuroInterventional Surgery"
+    - "Interventional Neuroradiology"
+
+  general:
+    - "Neurology"
+    - "JAMA Neurology"
+    - "Annals of Neurology"
+    - "Brain"
+    - "Lancet Neurology"
+    - "Journal of Neurology, Neurosurgery, and Psychiatry"
+    - "Journal of Neurology"
+    - "European Journal of Neurology"
+    - "Neurological Sciences"
+    - "Current Neurology and Neuroscience Reports"
+
+  subspecialty:
+    - "Epilepsia"
+    - "Movement Disorders"
+    - "Cephalalgia"
+    - "Multiple Sclerosis Journal"
+    - "Alzheimer's & Dementia"
+    - "Parkinsonism and Related Disorders"
+
+  neuroimmunology:
+    - "Neurology Neuroimmunology & Neuroinflammation"
+    - "Journal of Neuroinflammation"
+    - "Journal of Neuroimmunology"
+
+  pediatric:
+    - "Developmental Medicine and Child Neurology"
+    - "Journal of Child Neurology"
+    - "Pediatric Neurology"
+    - "Neuropediatrics"
+    - "European Journal of Paediatric Neurology"
+
+  neuropathology:
+    - "Acta Neuropathologica"
+    - "Brain Pathology"
+    - "Journal of Neuropathology and Experimental Neurology"
+    - "Neuropathology and Applied Neurobiology"
+
+  neuroimaging:
+    - "NeuroImage"
+    - "NeuroImage: Clinical"
+    - "Human Brain Mapping"
+    - "American Journal of Neuroradiology"
+    - "Neuroradiology"
+
+  neurocritical:
+    - "Neurocritical Care"
+    - "Journal of Neurotrauma"
+
+  reviews:
+    - "Nature Reviews Neurology"
+    - "Current Opinion in Neurology"
+    - "Neurotherapeutics"
+    - "Annual Review of Neuroscience"
+
+  # Adjacent field journals - filter for neurology keywords
+  adjacent_neurosurgery:
+    - "Neurosurgery"
+    - "Journal of Neurosurgery"
+
+  adjacent_rheumatology:
+    - "Arthritis & Rheumatology"
+    - "Annals of the Rheumatic Diseases"
+    - "Rheumatology"
+
+  # Mega-journals - filter for neurology keywords
+  mega_journals:
+    - "Nature"
+    - "Science"
+    - "Cell"
+    - "N Engl J Med"
+    - "Lancet"
+    - "JAMA"
+    - "Nature Medicine"
+    - "Nature Neuroscience"
+    - "Nature Communications"
+    - "Science Translational Medicine"
+
+# Keywords to filter adjacent neurosurgery papers (must match title/abstract)
+adjacent_neurosurgery_keywords:
+  - "neurocritical"
+  - "neurointensive"
+  - "brain injury"
+  - "intracranial"
+  - "subarachnoid"
+  - "intracerebral"
+  - "subdural"
+  - "epidural"
+  - "hydrocephalus"
+  - "decompressive"
+  - "craniectomy"
+  - "ventriculostomy"
+  - "brain death"
+  - "cerebral edema"
+  - "herniation"
+  - "status epilepticus"
+
+# Keywords to filter adjacent rheumatology papers (must match title/abstract)
+adjacent_rheumatology_keywords:
+  - "myositis"
+  - "myopathy"
+  - "dermatomyositis"
+  - "polymyositis"
+  - "inclusion body"
+  - "inflammatory muscle"
+  - "antisynthetase"
+  - "anti-Jo"
+  - "anti-MDA5"
+  - "anti-Mi-2"
+  - "anti-SRP"
+  - "anti-HMGCR"
+  - "necrotizing myopathy"
+  - "immune-mediated necrotizing"
+  - "muscle weakness"
+  - "creatine kinase"
+  - "rhabdomyolysis"
+
+# Keywords to filter mega-journal papers (must match title/abstract)
+mega_journal_keywords:
+  - "neuro"
+  - "brain"
+  - "stroke"
+  - "motor neuron"
+  - "myopathy"
+  - "neuropathy"
+  - "dementia"
+  - "epilepsy"
+  - "parkinson"
+  - "alzheimer"
+  - "multiple sclerosis"
+  - "migraine"
+  - "seizure"
+  - "cerebr"
+  - "spinal"
+  - "nerve"
+  - "muscular dystrophy"
+  - "ataxia"
+  - "ALS"
+  - "guillain"
+
+lookback_days: 7
+output_dir: "./output"
+
+# Jekyll blog integration
+# Generate draft blog posts from analyzed papers
+blog_drafts:
+  enabled: true
+  drafts_dir: "../../_drafts"  # Relative to output_dir, or absolute path
+  author: "Habakuk Hain"
+  min_importance: 3  # Only generate drafts for papers with importance >= this (1-5)
+
+# Triage settings - quick batch scoring to select top papers
+triage:
+  top_n: 20        # Number of papers to select for full analysis
+  batch_size: 20   # Papers per triage API call (max ~25 for context limits)
+
+# Budget limit for API usage (in dollars)
+# Set to null for unlimited, or a number like 1.00 for $1 max
+# Can also be set via --budget command line argument
+budget_limit: 1.00
+
+# Full text fetching settings
+full_text:
+  enabled: true  # Set to false to use abstracts only
+
+  # Email for Unpaywall API (they request this for their polite pool)
+  unpaywall_email: "habakuk.hain@charite.de"
+
+# Institutional proxy settings
+# Configure this section to access paywalled content via your institution
+proxy:
+  enabled: false
+
+  # Option 1: EZProxy-style URL prefix
+  # Your library's EZProxy will have a URL like: https://proxy.library.edu/login?url=
+  # The target URL gets appended to this prefix
+  url: null  # e.g., "https://proxy.library.edu/login?url="
+
+  # Option 2: HTTP/HTTPS proxy
+  # Some institutions provide a direct proxy server
+  http_proxy: null   # e.g., "http://proxy.institution.edu:8080"
+  https_proxy: null  # e.g., "http://proxy.institution.edu:8080"
+
+  # Proxy authentication (if required)
+  username: null
+  password: null
+
+  # Note: For many institutions, you may need to:
+  # 1. Be on the campus network or VPN
+  # 2. Use your institution's EZProxy URL (Option 1)
+  # 3. Configure browser-style proxy (Option 2)
+  #
+  # Common EZProxy URL patterns:
+  # - https://proxy.library.edu/login?url=
+  # - https://ezproxy.library.edu/login?url=
+  # - https://login.proxy.library.edu/login?url=
+  #
+  # Contact your library for the correct proxy URL
