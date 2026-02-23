@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Deep brain stimulation for epilepsy."
-date: "2026-02-23 05:00:00"
+date: "2026-02-23 00:00:00"
 author: "Habakuk Hain"
 categories: "transmission"
 slug: "5"
