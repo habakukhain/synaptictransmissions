@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "General anesthesia versus conscious sedation for thrombectomy."
-date: "2026-02-24 05:00:00"
+date: "2026-02-24"
 author: "Habakuk Hain"
 categories: "dienstag"
 slug: "1"
