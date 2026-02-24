@@ -26,7 +26,7 @@ post_categories:
     title_prefix: "Transmission"
     description: "Brief transmissions from the neural frontier."
   dienstag:
-    title_prefix: "Dienstag Dienst"
+    title_prefix: "Dienstag"
     description: "Weekly updates on findings that influence management of acute neurological conditions."
   radio_demo:
     title_prefix: "Radio-Demo"
