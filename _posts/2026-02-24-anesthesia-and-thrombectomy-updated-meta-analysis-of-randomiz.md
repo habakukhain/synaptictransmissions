@@ -14,7 +14,7 @@ paper_journal: "J NeuroInterv Surg"
 paper_year: "2026"
 paper_doi: "https://doi.org/10.1136/jnis-2025-024743"
 paper_et_al: true
-summary: "Updated meta-analysis of 10 RCTs shows general anesthesia during thrombectomy significantly improves revascularization rates compared to conscious sedation. When limited to trials using established stroke selection criteria, GA also improved functional independence at 90 days without increased mortality or hemorrhagic complications."
+summary: "Updated meta-analysis of 10 RCTs shows general anesthesia during thrombectomy significantly improves revascularization rates compared to conscious sedation. When limited to trials using established stroke selection criteria, general anesthesia also improved functional independence at 90 days without increased mortality or hemorrhagic complications."
 author_context: "Authors from major academic centers with expertise in neurosurgery and neurointerventional procedures (Stony Brook, University of Washington, Mass General)"
 ---
 **Problem**: Anesthesiology definitely needs to be involved early in stroke codes where thrombectomy is an option, but whether general anesthesia versus conscious sedation provides superior outcomes during endovascular thrombectomy for large vessel occlusion stroke has been an open question.
