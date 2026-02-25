@@ -1,7 +1,7 @@
 ---
 date: "2026-02-25 19:40:48"
 layout: post
-title: "Myelin sheaths in the central nervous system can withstand damage and dynamically remodel."
+title: "Dynamic remodelling of myelin sheaths."
 author: "Habakuk Hain"
 categories: transmission
 slug: "6"
