@@ -3,6 +3,7 @@ layout: post
 title: "Mucormycosis."
 author: "Habakuk Hain"
 categories: transmission
+slug: "7"
 tags: ["mucormycosis", "rhinocerebral infection", "liposomal amphotericin"]
 image:
 rating: 6
