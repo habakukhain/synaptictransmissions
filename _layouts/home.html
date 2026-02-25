@@ -31,7 +31,9 @@ title: Home
   </div>
   {% endif %}
   <p>
-    {% if category == "transmission" and post.summary %}
+    {% if post.layout == "collated" %}
+      {{ post.content | strip_html | truncate: 350 }}
+    {% elsif post.summary %}
       {{ post.summary }}
     {% else %}
       {{ post.content | strip_html | truncate: 350 }}
