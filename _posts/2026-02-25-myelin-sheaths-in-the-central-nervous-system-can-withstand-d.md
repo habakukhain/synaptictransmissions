@@ -1,8 +1,10 @@
 ---
+date: "2026-02-25 19:40:48"
 layout: post
 title: "Myelin sheaths in the central nervous system can withstand damage and dynamically remodel."
 author: "Habakuk Hain"
 categories: transmission
+slug: "6"
 tags: ["myelin swelling", "demyelination reversibility", "neuronal activity"]
 image:
 rating: 8
