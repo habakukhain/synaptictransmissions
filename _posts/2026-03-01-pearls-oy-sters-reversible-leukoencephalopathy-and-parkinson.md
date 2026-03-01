@@ -1,8 +1,10 @@
 ---
+date: "2026-03-01 10:23:08"
 layout: post
 title: "Reversible Leukoencephalopathy and Parkinsonism in Cryoglobulinemia."
 author: "Habakuk Hain"
 categories: transmission
+slug: "8"
 tags: ["cryoglobulinemia", "reversible parkinsonism", "leukoencephalopathy"]
 image:
 rating: 6
