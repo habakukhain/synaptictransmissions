@@ -1,6 +1,8 @@
 # Neuro Newsletter Configuration
-# API key: set via env var ANTHROPIC_API_KEY (recommended)
-# anthropic_api_key: ""
+# Copy this file to config.yaml and fill in your API keys
+#
+# API key: set via env var ANTHROPIC_API_KEY (recommended) or here
+anthropic_api_key: null  # or "sk-ant-..."
 
 journals:
   # Specialty journals - fetch all papers
@@ -165,57 +167,39 @@ lookback_days: 7
 output_dir: "./output"
 
 # Jekyll blog integration
-# Generate draft blog posts from analyzed papers
 blog_drafts:
   enabled: true
-  drafts_dir: "../../_drafts"  # Relative to output_dir, or absolute path
-  author: "Habakuk Hain"
-  min_importance: 3  # Only generate drafts for papers with importance >= this (1-5)
+  drafts_dir: "../../_drafts"
+  author: "Your Name"
+  min_importance: 3
 
-# Triage settings - quick batch scoring to select top papers
+# Triage settings
 triage:
-  top_n: 20        # Number of papers to select for full analysis
-  batch_size: 20   # Papers per triage API call (max ~25 for context limits)
+  top_n: 20
+  batch_size: 20
 
 # Budget limit for API usage (in dollars)
-# Set to null for unlimited, or a number like 1.00 for $1 max
-# Can also be set via --budget command line argument
 budget_limit: 1.00
 
 # Full text fetching settings
 full_text:
-  enabled: true  # Set to false to use abstracts only
-
-  # Email for Unpaywall API (they request this for their polite pool)
-  unpaywall_email: "habakuk.hain@charite.de"
+  enabled: true
+  unpaywall_email: "your.email@example.com"
 
 # Institutional proxy settings
-# Configure this section to access paywalled content via your institution
 proxy:
   enabled: false
-
-  # Option 1: EZProxy-style URL prefix
-  # Your library's EZProxy will have a URL like: https://proxy.library.edu/login?url=
-  # The target URL gets appended to this prefix
-  url: null  # e.g., "https://proxy.library.edu/login?url="
-
-  # Option 2: HTTP/HTTPS proxy
-  # Some institutions provide a direct proxy server
-  http_proxy: null   # e.g., "http://proxy.institution.edu:8080"
-  https_proxy: null  # e.g., "http://proxy.institution.edu:8080"
-
-  # Proxy authentication (if required)
+  url: null
+  http_proxy: null
+  https_proxy: null
   username: null
   password: null
 
-  # Note: For many institutions, you may need to:
-  # 1. Be on the campus network or VPN
-  # 2. Use your institution's EZProxy URL (Option 1)
-  # 3. Configure browser-style proxy (Option 2)
-  #
-  # Common EZProxy URL patterns:
-  # - https://proxy.library.edu/login?url=
-  # - https://ezproxy.library.edu/login?url=
-  # - https://login.proxy.library.edu/login?url=
-  #
-  # Contact your library for the correct proxy URL
+# Zotero integration
+zotero:
+  enabled: false
+  api_key: null  # Set via env var ZOTERO_API_KEY (recommended)
+  library_id: null
+  library_type: "user"
+  add_notes: true
+  attach_pdfs: true

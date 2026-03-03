@@ -32,6 +32,7 @@ from pubmed_fetcher import PubMedFetcher
 from full_text_fetcher import FullTextFetcher
 from paper_analyzer import PaperAnalyzer
 from newsletter_generator import NewsletterGenerator
+from zotero_uploader import ZoteroUploader
 
 
 def load_config(config_path: str = "config.yaml") -> dict:
@@ -79,6 +80,20 @@ def get_api_key(config: dict) -> str:
     print("Error: ANTHROPIC_API_KEY not found.")
     print("Set it via environment variable or in config.yaml")
     sys.exit(1)
+
+
+def get_zotero_api_key(config: dict):
+    """Get Zotero API key from environment or config."""
+    api_key = os.environ.get("ZOTERO_API_KEY")
+    if api_key:
+        return api_key
+
+    zotero_config = config.get("zotero", {})
+    api_key = zotero_config.get("api_key")
+    if api_key:
+        return api_key
+
+    return None
 
 
 def fetch_full_texts(papers, config):
@@ -345,6 +360,47 @@ def main():
             author=author,
             min_importance=min_importance
         )
+
+    # Phase 6: Upload to Zotero if enabled
+    zotero_config = config.get("zotero", {})
+    if zotero_config.get("enabled", False):
+        print("\n" + "=" * 50)
+        print("PHASE 6: Uploading to Zotero")
+        print("=" * 50)
+
+        zotero_api_key = get_zotero_api_key(config)
+        if not zotero_api_key:
+            print("Warning: Zotero enabled but no API key found.")
+            print("Set ZOTERO_API_KEY environment variable or add to config.yaml")
+        else:
+            library_id = zotero_config.get("library_id")
+            library_type = zotero_config.get("library_type", "user")
+
+            if not library_id:
+                print("Warning: Zotero library_id not configured.")
+            else:
+                uploader = ZoteroUploader(
+                    api_key=zotero_api_key,
+                    library_id=library_id,
+                    library_type=library_type
+                )
+
+                full_text_config = config.get("full_text", {})
+                unpaywall_email = full_text_config.get("unpaywall_email", "neuro_newsletter@example.com")
+
+                result = uploader.upload_papers(
+                    analyses,
+                    add_notes=zotero_config.get("add_notes", True),
+                    attach_pdfs=zotero_config.get("attach_pdfs", True),
+                    unpaywall_email=unpaywall_email
+                )
+
+                print(f"\nZotero upload complete:")
+                print(f"  Collection: {result.collection_name}")
+                print(f"  Items created: {result.items_created}")
+                print(f"  PDFs attached: {result.pdfs_attached}")
+                if result.errors:
+                    print(f"  Errors: {len(result.errors)}")
 
     # Print summary
     print("\n" + "=" * 50)
